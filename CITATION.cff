@@ -1,0 +1,46 @@
+cff-version: 1.2.0
+type: dataset
+title: "leafwax v10 model posteriors"
+authors:
+  - family-names: Bradley
+    given-names: Alex
+    orcid: "https://orcid.org/0000-0002-4044-2802"
+    affiliation: "Department of Earth, Environmental, and Planetary Sciences, Washington University in St. Louis"
+    email: abradley@wustl.edu
+abstract: >-
+  Posterior draws from 14 hierarchical Bayesian leaf-wax-to-precipitation
+  calibration models, fit in Stan against the v10 compilation
+  (Bradley 2026, Geochimica et Cosmochimica Acta). Each file is a
+  posterior::draws_df with 1000 stratified draws across 4 MCMC chains.
+  Spatial models include 125 per-knot latent z values on a Fibonacci
+  sphere lattice. Used by the leafwax R package as the full-resolution
+  backing data; the package ships a 100-draw fixture and downloads
+  the full posteriors from this archive on first use.
+keywords:
+  - leaf wax
+  - hydrogen isotopes
+  - paleoclimate
+  - Bayesian calibration
+  - Stan
+  - precipitation isotopes
+  - posterior draws
+  - hierarchical model
+license: CC-BY-4.0
+version: "1.0.0"
+date-released: "2026-05-08"
+repository-code: "https://github.com/bradleylab/leafwax-data"
+url: "https://github.com/bradleylab/leafwax"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.PLACEHOLDER"
+    description: Concept DOI (always resolves to latest version)
+references:
+  - type: article
+    title: >-
+      Spatial modeling improves the calibration of leaf wax hydrogen
+      isotopes to precipitation
+    authors:
+      - family-names: Bradley
+        given-names: Alex
+    journal: "Geochimica et Cosmochimica Acta"
+    year: 2026

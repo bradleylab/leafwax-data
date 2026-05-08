@@ -1,0 +1,66 @@
+{
+  "version": "1.0.0",
+  "package": "leafwax",
+  "manuscript": "Bradley (2026), Geochimica et Cosmochimica Acta",
+  "n_models": 14,
+  "draws_per_model": 1000,
+  "generated": "2026-05-08",
+  "files": {
+    "baseline_env_posterior.rds": {
+      "sha256": "804ce328bea83963dd4fa9746f46b27fb47c736e50b78493da7341293137b532",
+      "size_bytes": 94400
+    },
+    "baseline_env_sp_posterior.rds": {
+      "sha256": "92cbad39f3ebb005e2bf258a6e0e07441c94712f76629a0e67517b10eb491331",
+      "size_bytes": 1131860
+    },
+    "baseline_posterior.rds": {
+      "sha256": "8320a90269d0b576c6857acd47cbda9e980411d280b0b462d707983a5942901c",
+      "size_bytes": 88328
+    },
+    "baseline_sp_posterior.rds": {
+      "sha256": "8e33bc547a03592e15263cbaf654b898be96075c335ae33cca04b9087a8e6b9e",
+      "size_bytes": 1126864
+    },
+    "baseline_veg_posterior.rds": {
+      "sha256": "4b912b386db1d1c3bff982bbc43a7980a5d0ed81e4fb2eb7531acf939db73600",
+      "size_bytes": 130016
+    },
+    "baseline_veg_sp_posterior.rds": {
+      "sha256": "99f8511d1101ef25019a54490e143bf85daad3101f0caeb2101dac72cb30a946",
+      "size_bytes": 1155676
+    },
+    "c4_only_sp_posterior.rds": {
+      "sha256": "024938a1f5c9959feb47e622d4c5590658a149b4428b5c0210380e62708f273c",
+      "size_bytes": 1132528
+    },
+    "elevation_c4_interact_sp_posterior.rds": {
+      "sha256": "df89bd2cdcae79c010cfae59cf2ac1e65cced200811dc2fd1fff7a741aab3774",
+      "size_bytes": 1131792
+    },
+    "elevation_c4_sp_posterior.rds": {
+      "sha256": "75b6653478396b61a532d412ea19a9380b903efee7d59857e60f5d97776636d7",
+      "size_bytes": 1130720
+    },
+    "elevation_only_sp_posterior.rds": {
+      "sha256": "1c88357840ff79efba27a236e92ee0a161bb5c59ac7c4d8634dc0a7be6b0e13d",
+      "size_bytes": 1127476
+    },
+    "full_interact_posterior.rds": {
+      "sha256": "a971f10a3400af3c3b589a566723d2de0964c2e5c1c6f9be2f7e6abc676dc994",
+      "size_bytes": 134828
+    },
+    "full_interact_sp_posterior.rds": {
+      "sha256": "fea73ec58aed61642b4097fcd90226d057d1da430c8f59d342b6b273c17a4c47",
+      "size_bytes": 1159180
+    },
+    "full_posterior.rds": {
+      "sha256": "0a0e12df40948cac4ba756fedbf59ab9debf074534e747a774b363b7f2961a82",
+      "size_bytes": 114956
+    },
+    "full_sp_posterior.rds": {
+      "sha256": "03bbf6898efcf442091c0c3acde4248f6f7f54432455a1ed293f08d146c6a15e",
+      "size_bytes": 1145004
+    }
+  }
+}
