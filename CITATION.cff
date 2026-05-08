@@ -1,4 +1,5 @@
 cff-version: 1.2.0
+message: "If you use these posterior draws, please cite this dataset."
 type: dataset
 title: "leafwax v10 model posteriors"
 authors:
@@ -26,13 +27,13 @@ keywords:
   - posterior draws
   - hierarchical model
 license: CC-BY-4.0
-version: "1.0.0"
+version: "1.0.1"
 date-released: "2026-05-08"
 repository-code: "https://github.com/bradleylab/leafwax-data"
-url: "https://github.com/bradleylab/leafwax"
+url: "https://doi.org/10.5281/zenodo.20085465"
 identifiers:
   - type: doi
-    value: "10.5281/zenodo.PLACEHOLDER"
+    value: "10.5281/zenodo.20085465"
     description: Concept DOI (always resolves to latest version)
 references:
   - type: article

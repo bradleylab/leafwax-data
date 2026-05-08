@@ -49,7 +49,7 @@ The intended consumer is the leafwax R package's
 into the user's cache on first inversion. For direct use:
 
 ```r
-url <- "https://github.com/bradleylab/leafwax-data/releases/download/v1.0.0/baseline_sp_posterior.rds"
+url <- "https://raw.githubusercontent.com/bradleylab/leafwax-data/v1.0.1/baseline_sp_posterior.rds"
 draws <- readRDS(url(url))
 ```
 
@@ -62,15 +62,16 @@ tags. The model schema may change between major versions; check
 
 | Tag | Models | Draws/model | Stan version | Notes |
 |---|---|---|---|---|
-| `v1.0.0` | 14 | 1000 | 2.34 | Initial deposit accompanying Bradley (2026) GCA |
+| `v1.0.0` | 14 | 1000 | 2.34 | Initial deposit; metadata placeholder DOIs (do not cite). |
+| `v1.0.1` | 14 | 1000 | 2.34 | Same posteriors as v1.0.0; metadata corrected (real DOI, CFF-spec compliance, fixed URL example). Cite this version. |
 
 ## Citation
 
 If you use these posteriors directly (rather than via the leafwax
 package), please cite:
 
-> Bradley, A. (2026). leafwax model posteriors v10. Zenodo.
-> https://doi.org/10.5281/zenodo.<concept-doi>
+> Bradley, A. (2026). leafwax v10 model posteriors. Zenodo.
+> https://doi.org/10.5281/zenodo.20085465
 
 The leafwax R package itself is cited separately. See its DESCRIPTION
 file for the package citation.
