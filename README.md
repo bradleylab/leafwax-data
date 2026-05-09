@@ -70,7 +70,7 @@ tags. The model schema may change between major versions; check
 If you use these posteriors directly (rather than via the leafwax
 package), please cite:
 
-> Bradley, A. (2026). leafwax v10 model posteriors. Zenodo.
+> Bradley, A. (2026). leafwax model posteriors. Zenodo.
 > https://doi.org/10.5281/zenodo.20085465
 
 The leafwax R package itself is cited separately. See its DESCRIPTION
