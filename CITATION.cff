@@ -11,7 +11,7 @@ authors:
 abstract: >-
   Posterior draws from 14 hierarchical Bayesian leaf-wax-to-precipitation
   calibration models, fit in Stan against the v10 compilation
-  (Bradley 2026, Geochimica et Cosmochimica Acta). Each file is a
+  (Bradley 2026, manuscript in preparation). Each file is a
   posterior::draws_df with 1000 stratified draws across 4 MCMC chains.
   Spatial models include 125 per-knot latent z values on a Fibonacci
   sphere lattice. Used by the leafwax R package as the full-resolution
@@ -36,12 +36,12 @@ identifiers:
     value: "10.5281/zenodo.20085465"
     description: Concept DOI (always resolves to latest version)
 references:
-  - type: article
+  - type: unpublished
     title: >-
       Spatial modeling improves the calibration of leaf wax hydrogen
       isotopes to precipitation
     authors:
       - family-names: Bradley
         given-names: Alex
-    journal: "Geochimica et Cosmochimica Acta"
+        orcid: "https://orcid.org/0000-0002-4044-2802"
     year: 2026
