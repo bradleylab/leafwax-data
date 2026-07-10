@@ -11,9 +11,10 @@ Citable via the Zenodo DOI minted on every tagged release; see
 ## Contents
 
 Fourteen `<model>_posterior.rds` files, one per hierarchical Bayesian
-calibration model from Bradley (2026), *Geochimica et Cosmochimica
-Acta*. Each file is a `posterior::draws_df` with 1000 stratified draws
-across 4 chains, columns named to match the v10 Stan model.
+calibration model from Bradley (2026), *Communications Earth and
+Environment*. Each file is a `posterior::draws_df` with 1000 stratified
+draws across 8 chains, columns named to match the frozen-run Stan model
+(calibration run `c2_run_20260626`, n = 1128 observations).
 
 | Model | Spatial GP | Elevation | Vegetation | Interactions |
 |---|---|---|---|---|
@@ -49,7 +50,7 @@ The intended consumer is the leafwax R package's
 into the user's cache on first inversion. For direct use:
 
 ```r
-url <- "https://raw.githubusercontent.com/bradleylab/leafwax-data/v1.0.1/baseline_sp_posterior.rds"
+url <- "https://raw.githubusercontent.com/bradleylab/leafwax-data/v2.0.0/baseline_sp_posterior.rds"
 draws <- readRDS(url(url))
 ```
 
@@ -63,7 +64,8 @@ tags. The model schema may change between major versions; check
 | Tag | Models | Draws/model | Stan version | Notes |
 |---|---|---|---|---|
 | `v1.0.0` | 14 | 1000 | 2.34 | Initial deposit; metadata placeholder DOIs (do not cite). |
-| `v1.0.1` | 14 | 1000 | 2.34 | Same posteriors as v1.0.0; metadata corrected (real DOI, CFF-spec compliance, fixed URL example). Cite this version. |
+| `v1.0.1` | 14 | 1000 | 2.34 | Same posteriors as v1.0.0; metadata corrected (real DOI, CFF-spec compliance, fixed URL example). v10 / n=1129 lineage. |
+| `v2.0.0` | 14 | 1000 | 2.34 | Re-fit on frozen run `c2_run_20260626`, n=1128 (Africa 142); supersedes v1.x v10/GCA lineage. Manuscript: *Communications Earth and Environment*. Version DOI: TBD (minted on release). |
 
 ## Citation
 

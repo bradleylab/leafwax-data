@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use these posterior draws, please cite this dataset."
 type: dataset
-title: "leafwax v10 model posteriors"
+title: "leafwax model posteriors (frozen run c2_run_20260626)"
 authors:
   - family-names: Bradley
     given-names: Alex
@@ -10,13 +10,15 @@ authors:
     email: abradley@wustl.edu
 abstract: >-
   Posterior draws from 14 hierarchical Bayesian leaf-wax-to-precipitation
-  calibration models, fit in Stan against the v10 compilation
-  (Bradley 2026, manuscript in preparation). Each file is a
-  posterior::draws_df with 1000 stratified draws across 4 MCMC chains.
-  Spatial models include 125 per-knot latent z values on a Fibonacci
-  sphere lattice. Used by the leafwax R package as the full-resolution
-  backing data; the package ships a 100-draw fixture and downloads
-  the full posteriors from this archive on first use.
+  calibration models, fit in Stan on the frozen calibration run
+  c2_run_20260626 (n = 1128 observations; Bradley 2026, Communications
+  Earth and Environment). Each file is a posterior::draws_df with 1000
+  stratified draws across 8 MCMC chains. Spatial models include 125
+  per-knot latent z values on a Fibonacci sphere lattice. Used by the
+  leafwax R package as the full-resolution backing data; the package
+  ships a 100-draw fixture and downloads the full posteriors from this
+  archive on first use. Supersedes the v1.x deposit (v10 / n = 1129
+  lineage).
 keywords:
   - leaf wax
   - hydrogen isotopes
@@ -27,8 +29,8 @@ keywords:
   - posterior draws
   - hierarchical model
 license: CC-BY-4.0
-version: "1.0.1"
-date-released: "2026-05-08"
+version: "2.0.0"
+date-released: "2026-07-09"
 repository-code: "https://github.com/bradleylab/leafwax-data"
 url: "https://doi.org/10.5281/zenodo.20085465"
 identifiers:
